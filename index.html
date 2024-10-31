@@ -3,15 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles/base.css" />
     <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/base.css" />
     <link rel="stylesheet" href="./styles/style.css" />
-
-    <title>Document</title>
+    <script src="./src/script.js" type="module"></script>
+    <title>Cine Realm</title>
   </head>
   <body>
     <div id="page-container">
-      <nav></nav>
+      <nav id="main-navigation">
+        <a class="navbar-brand" href="./index.html">Ciné Realm</a>
+        <form>
+          <input placeholder="Search" />
+          <button>Search</button>
+        </form>
+      </nav>
 
       <main>
         <figure>
@@ -28,11 +34,14 @@
             />
           </video>
         </figure>
-
-        <section></section>
+        <section>
+          <img src="./assets/images/라라랜드 포스터_세로.jpg" />
+        </section>
       </main>
 
-      <footer id="main-footer"></footer>
+      <footer id="main-footer">
+        <div>시은</div>
+      </footer>
     </div>
   </body>
 </html>
